@@ -1,0 +1,185 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Online Booking Progress</title>
+    <link href="https://fonts.googleapis.com/css?family=League+Spartan:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+  </head>
+  
+  <body translate="no">
+    <div id="wrap">
+      <div class="title">
+        <h3>Easy Online Booking Process</h3>
+        <h1>You’re seconds away from securing your Iceland car rental.</h1>
+      </div>
+    <div class="frame">
+      <input checked="checked" id="rad1" name="rad" type="radio">
+      <input id="rad2" name="rad" type="radio">
+      <input id="rad3" name="rad" type="radio">
+      <input id="rad4" name="rad" type="radio">
+      <div class="nav">
+        <h2>Select your travel days</h2>
+        <p>Want to relax in the Blue Lagoon during the summer or hunt the Northern Lights during the winter? Pick your travel days and hit ‘Search’.</p>
+      </div>
+      <div class="nav">
+        <h2>Choose your favorite ride</h2>
+        <p>Take a good look at our new vehicle fleet. From 4x4s & SUVs to electric and luxury vehicles, the choice is yours!</p>
+      </div>
+      <div class="nav">
+        <h2>Add your extras & insurances</h2>
+        <p>Feel at home on the road and don’t worry about a thing thanks to our comprehensive insurances and top extras.</p>
+      </div>
+      <div class="nav">
+        <h2>Complete your booking and fly to Iceland!</h2>
+        <p>All you need to do now is fill in your personal details and complete the online payment process. See you in Iceland!</p>
+      </div>
+      <div class="indicator"></div>
+        <div class="inner">
+          <form id="rentalForm">
+         <div class="content"  id="step1">
+           <span class="courtain"></span>
+           <div class="title-responsive">
+             <h2>Select your travel days</h2>
+             <p>Want to relax in the Blue Lagoon during the summer or hunt the Northern Lights during the winter? Pick your travel days and hit ‘Search’.</p>
+           </div>
+          <div class="form-inputs dates">
+            <div class="card">
+              <label class="start-date-label" for="startDate">Initial date:</label>
+              <input type="date" id="startDate" name="startDate">
+              <img class="empty-info" src="./assets/img/info.svg"/>
+              <img alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+            </div>
+            <img src="./assets/img/arrow.svg"/>
+            <div class="card">
+              <label class="end-date-label" for="endDate">Ending date:</label>
+              <input type="date" id="endDate" name="endDate">
+              <img class="empty-info" src="./assets/img/info.svg"/>
+              <img class="empty-info" src="./assets/img/info.svg"/>
+            </div>
+            <div class="days-amount">Select your days</div>  
+          </div>
+        </div>
+        <div class="content"  id="step2">
+          <span class="courtain"></span>
+          <div class="title-responsive">
+            <h2>Choose your favorite ride</h2>
+            <p>Take a good look at our new vehicle fleet. From 4x4s & SUVs to electric and luxury vehicles, the choice is yours!</p>    
+          </div>
+          <div class="form-inputs cars">
+            <div class="card">
+              <input type="radio" id="vehicle1" name="vehicle" value="Hyunadi L10">
+              <label for="vehicle1">Hyunadi L10</label>
+              <img  alt="Vehicle image"  class="car-img" src="./assets/img/cars/Car.png"/>
+              <img alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+              <div class="car-button">Book Now</div> 
+            </div>
+            <div class="card">
+              <input type="radio" id="vehicle2" name="vehicle" value="Suzuki Jimny">
+              <label for="vehicle1">Suzuki Jimny</label>
+              <img  alt="Vehicle image"  class="car-img" src="./assets/img/cars/Car.png"/>
+              <img alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+              <div class="car-button">Book Now</div> 
+            </div>
+            <div class="card">
+              <input type="radio" id="vehicle3" name="vehicle" value="Toyota Aygo">
+              <label for="vehicle1">Toyota Aygo</label>
+              <img  alt="Vehicle image"  class="car-img" src="./assets/img/cars/Car.png"/>
+              <img alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+              <div class="car-button">Book Now</div> 
+            </div>
+            <div class="card">
+              <input type="radio" id="vehicle4" name="vehicle" value="Dacia Sandero">
+              <label for="vehicle1">Dacia Sandero</label>
+              <img  alt="Vehicle image"  class="car-img" src="./assets/img/cars/Car.png"/>
+              <img alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+              <div class="car-button">Book Now</div> 
+            </div>
+            <div class="card">
+              <input type="radio" id="vehicle5" name="vehicle" value="Kia Ceed">
+              <label for="vehicle1">Kia Ceed</label>
+              <img  alt="Vehicle image"  class="car-img" src="./assets/img/cars/Car.png"/>
+              <img alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+              <div class="car-button">Book Now</div> 
+            </div>
+            <div class="card">
+              <input type="radio" id="vehicle6" name="vehicle" value="Skoda Octavia">
+              <label for="vehicle1">Skoda Octavia</label>
+              <img  alt="Vehicle image"  class="car-img" src="./assets/img/cars/Car.png"/>
+              <img alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+              <div class="car-button">Book Now</div> 
+            </div>
+            <img  class="more-cars" src="./assets/img/vehicle-circle.png" />
+          </div>
+        </div>
+          <div class="content"  id="step3">
+            <span class="courtain"></span>
+            <div class="title-responsive">
+              <h2>Add your extras & insurances</h2>
+              <p>Feel at home on the road and don’t worry about a thing thanks to our comprehensive insurances and top extras.</p>
+            </div>
+            <div class="form-inputs optionals" >
+              <div class="card">
+                <input type="checkbox" id="insurance" name="insurance">
+                <img  class="insurance-img" src="./assets/img/insurance.png"/>
+                <div>
+                  <label for="insurance">Liability Waiver</label>
+                  <img alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+                  <div class="car-button">Add</div> 
+                </div>
+              </div>
+              <div class="block-content1">
+                  <img alt="Pseudo content" src="./assets/img/block-2.svg" />
+              </div>
+              <div class="card wifi">
+                <input type="checkbox" id="wifi" name="wifi">
+                <img  class="insurance-img" src="./assets/img/Wifi.png"/>
+                <div>
+                  <label for="wifi">Wi-Fi</label>
+                  <img alt="loren Ipsum" alt="loren Ipsum"  class="empty-info" src="./assets/img/info.svg"/>
+                </div>
+                <div class="car-button">Add</div> 
+              </div>
+              <div class="block-content2">
+                <img alt="Pseudo content" src="./assets/img/block-4.svg" />
+            </div>
+              <img alt="Free insurance" class="free-insurance" src="./assets/img/Insurance-circle.png" />
+            </div>
+          </div>
+          <div class="content"  id="step4">
+            <span class="courtain"></span>
+            <div class="title-responsive">
+              <h2>Complete your booking and fly to Iceland!</h2>
+              <p>All you need to do now is fill in your personal details and complete the online payment process. See you in Iceland!</p>   
+            </div>
+            <div class="form-inputs send-form">
+              <div id="progressIndicators">
+                <span id="progressStep1">1</span>
+                <span id="progressStep2">2</span>
+                <span id="progressStep3">3</span>
+              </div>
+              <div id="orderSummary">
+                <h3>Resume</h3>
+                <p>Dates: <span id="dateSummary"></span></p>
+                <p>Days amount: <span id="daysSummary"></span></p>
+                <p>Vehicle: <span id="vehicleSummary"></span></p>
+                <p>Optionals:</p>
+                <ul>
+                  <li>Insurance: <span id="insuranceSummary">No</span></li>
+                  <li>Wi-Fi: <span id="wifiSummary">No</span></li>
+                </ul>
+                <span id="validationError"></span>
+              </div>
+              <input type="reset" value="Reset form" />
+              <button type="submit">Send order</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+  </body>
+  </html>
