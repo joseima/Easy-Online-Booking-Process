@@ -891,6 +891,9 @@ body #wrap .inner .content div.form-inputs.send-form button:hover {
     border: 1px solid #0062e0;
     cursor: pointer;
 }
+
+/*----- MEDIA QUERIES -----*/
+
 @media screen and (max-width: 1100px) {
   body #wrap {
     position: relative;
@@ -916,10 +919,10 @@ body #wrap .inner .content div.form-inputs.send-form button:hover {
   }
   body #wrap .frame {
     width: 100%;
-    height: 90%;
+    height: 120%;
     bottom: 0;
     left: 0;
-    top: 10%;
+    top: 14%;
   }
   body #wrap .frame .nav h2,
   body #wrap .frame .nav p {
@@ -993,5 +996,18 @@ body #wrap .inner .content div.form-inputs.send-form button:hover {
   }
   body #wrap .inner .content div.form-inputs.cars {
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
+@media screen and (max-width: 520px) {
+  body #wrap .frame {
+      top: 20%;
+  }
+  body #wrap .inner .content div.form-inputs.dates img {
+      margin: 0px 0px;
+  }
+  body #wrap .inner .content div.form-inputs {
+    width: 100%;
+    padding: 10% 0%;
+    transform: translateX(-20px) !important;
   }
 }
